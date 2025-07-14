@@ -1,0 +1,158 @@
+.recipientForm{
+    background-color: #181818;
+    height: 54vh;
+    width: 50vh;
+    margin: 20px 35px 0px 80px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.recipientHeading{
+    margin: 5px;
+    text-align: center;
+    font-family:system-ui;
+}
+
+input{
+
+    display: block;
+    width: 48.5vh;
+    border-radius: 15px;
+    border: none;
+    font-family: monospace;
+}
+
+.optionInputs{
+    display: flex;
+    column-gap: 8px;
+}
+
+.labelGap{
+    margin-top: 8px;
+}
+
+.educationGroup {
+    margin-top: 10px;
+    column-gap: 15px;
+    height: 15px;
+}
+
+.educationGroup label {
+    background-color: aliceblue;
+    width: 40px;
+    color: #181818;
+    padding: 2px 8px;
+    border-radius: 15px;
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    margin-bottom: 7px;
+    font-size: 13.5px;
+}
+
+.educationGroup input[type="radio"] {
+    accent-color: #181818;
+    cursor: pointer;
+    transform: scale(1.1);
+    width: 10px;
+}
+
+.educationGroup label:hover {
+    background-color: #282828;
+    color: aliceblue;
+}
+
+.employmentGroup{
+    
+    margin-top: 10px;
+    column-gap: 15px;
+    height: 15px;
+}
+
+.employmentGroup label {
+    background-color: aliceblue;
+    color: #181818;
+    padding: 2px 8px;
+    border-radius: 15px;
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    margin-bottom: 7px;
+    font-size: 13.5px;
+}
+
+.employmentGroup input[type="radio"] {
+    accent-color: #181818;
+    cursor: pointer;
+    transform: scale(1.1);
+    width: 10px;
+}
+
+.employmentGroup label:hover {
+    background-color: #282828;
+    color: aliceblue;
+}
+
+.healthGroup{
+    margin-top: 10px;
+    column-gap: 15px;
+    height: 15px;
+}
+
+.healthGroup label {
+    background-color: aliceblue;
+    width: 45px;
+    color: #181818;
+    padding: 2px 8px;
+    border-radius: 15px;
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    margin-bottom: 7px;
+    font-size: 13.5px;
+}
+
+.healthGroup input[type="radio"] {
+    accent-color: #181818;
+    cursor: pointer;
+    transform: scale(1.1);
+    width: 10px;
+}
+
+.healthGroup label:hover {
+    background-color: #282828;
+    color: aliceblue;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    display: inline;
+    width: 10%;
+}
+
+/* button{
+    border: none;
+    height: 35px;
+    width: 100px;
+    margin: 70px 120px 0px 127px;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+button:hover{
+    background-color: black;
+    color: aliceblue;
+    transition: 0.7s;
+    transform: scale(1.1);
+} */

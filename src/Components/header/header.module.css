@@ -1,0 +1,12 @@
+.heading{
+    background-color: #181818;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    /* padding: 5px; */
+}
+.headingName{
+    color: aliceblue;
+    padding-top: 20px;
+    font-family: sans-serif;
+}
