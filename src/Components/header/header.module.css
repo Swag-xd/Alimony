@@ -3,10 +3,28 @@
     height: 80px;
     width: 100%;
     text-align: center;
+    display: flex;
     /* padding: 5px; */
 }
+
 .headingName{
+    width: 45vh;
+    
+}
+.Name{
     color: aliceblue;
     padding-top: 20px;
     font-family: sans-serif;
 }
+.Icon{
+    height: 80px;
+    width: 80px;
+    margin-left: 75vh;
+    
+}
+ img{
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    border-radius: 50px;
+ }
