@@ -1,5 +1,5 @@
 .mainScreen{
-height: 70vh;
+height: 83.8vh;
 /* background-color: blue; */
 }
 
@@ -9,7 +9,6 @@ height: 70vh;
     height: 60vh;
     color: aliceblue;
     display: flex;
-    /* column-gap: 40px; */
     margin-right: 40px;
 }
 .submitButton{
