@@ -4,5 +4,9 @@
 :root{
     background-color: black;
     /* overflow: hidden; */
-    height: 160vh;
+    height: 155vh;
+}
+
+img icon {
+    border-radius: 20px;
 }
