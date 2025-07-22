@@ -1,8 +1,10 @@
 .faqBox {
-    margin: 50px 40vh 50px 40vh;
+    margin: 50px auto;
     padding: 30px;
     background-color: #181818;
     border-radius: 12px;
+    width: 80%;
+    max-width: 700px;
 }
 
 .faqHeading{
@@ -26,4 +28,28 @@
     background-color: #ffffff;
     border-left: 4px solid #4a90e2;
     border-radius: 4px;
+}
+
+
+/* Responsive for phones */
+
+@media(max-width: 768px){
+
+      .faqBox {
+        margin: 50px auto;
+    width: 90%;
+    padding: 20px;
+  }
+
+  .faqHeading {
+    font-size: 18px;
+  }
+
+  .faqItem {
+    font-size: 14px;
+  }
+
+  .answer {
+    font-size: 14px;
+  }
 }

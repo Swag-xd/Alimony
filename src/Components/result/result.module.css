@@ -1,16 +1,41 @@
 .result {
-  height: 130px;
+  height: auto;
   /* background-color: red; */
+  margin: 10px;
 }
 .resultSection {
   height: 80px;
-  margin: 20px 350px 10px 350px;
+  margin: 20px auto;
   background-color: #181818;
   padding: 5px;
   border-radius: 12px;
+  max-width: 600px;
 }
 .alimonyHeading{
   font-family: system-ui;
-  padding: 20px 20px 20px 25vh;
+  padding: 24px 0;
+  text-align: center;
   color: aliceblue;
+}
+
+
+/* Responsive for phones */
+
+@media(max-width: 768px){
+
+  .resultSection{
+    margin: 0px auto 20px auto;
+    width: 90%;
+    height: 50px;
+  }
+
+  .alimonyHeading{
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  /* .alimonyHeading{
+    padding: 24px 0;
+  } */
 }
