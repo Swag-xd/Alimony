@@ -1,42 +1,42 @@
 .faqBox {
-    margin: 50px auto;
-    padding: 30px;
-    background-color: #181818;
-    border-radius: 12px;
-    width: 80%;
-    max-width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #181818;
+  border-radius: 12px;
+  width: 80%;
+  max-width: 700px;
 }
 
-.faqHeading{
-    color: aliceblue;
-    text-align: center;
-    font-family: sans-serif;
-    margin-bottom: 20px;
+.faqHeading {
+  color: aliceblue;
+  text-align: center;
+  font-family: sans-serif;
+  margin-bottom: 20px;
 }
 
 .faqItem {
-    margin-bottom: 20px;
-    font-family: sans-serif;
-    color: whitesmoke;
-    cursor: pointer;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  color: whitesmoke;
+  cursor: pointer;
 }
 
 .answer {
-    margin-top: 5px;
-    padding: 10px;
-    color: #181818;
-    background-color: #ffffff;
-    border-left: 4px solid #4a90e2;
-    border-radius: 4px;
+  margin-top: 5px;
+  padding: 10px;
+  color: #181818;
+  background-color: #ffffff;
+  border-left: 4px solid #4a90e2;
+  border-radius: 4px;
 }
 
 
 /* Responsive for phones */
 
-@media(max-width: 768px){
+@media(max-width: 768px) {
 
-      .faqBox {
-        margin: 50px auto;
+  .faqBox {
+    margin: 50px 8vh;
     width: 90%;
     padding: 20px;
   }

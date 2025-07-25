@@ -46,6 +46,7 @@ img {
 
 @media (max-width : 768px) {
     .heading {
+        width: 72vh;
         flex-direction: row;
         height: 80px;
         padding: 10px;
@@ -55,18 +56,19 @@ img {
 
     .headingName {
         width: 100%;
-        /* margin-right: 20vh; */
+        
         font-size: 10px;
+
     }
 
     .Name{
-        width: 27vh;
         font-size: 20px;
+        margin-right: 108px;
     }
     .Icon {
         justify-content: center;
         /* width: 100%; */
-        margin-left: 85px;
+        margin-left: 50px;
     }
 
     img {
