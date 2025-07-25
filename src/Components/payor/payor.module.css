@@ -1,4 +1,4 @@
-.payorForm{
+.payorForm {
     background-color: #181818;
     height: 54vh;
     width: 50vh;
@@ -8,26 +8,27 @@
     border-radius: 12px;
 }
 
-.payorHeading{
+.payorHeading {
     margin: 5px;
     text-align: center;
-    font-family:system-ui;
+    font-family: system-ui;
 }
 
-input{
-    
+input {
+
     display: block;
     width: 48.5vh;
     border-radius: 15px;
     border: none;
     font-family: monospace;
 }
-.optionInputs{
+
+.optionInputs {
     display: flex;
     column-gap: 15px;
 }
 
-.labelGap{
+.labelGap {
     margin-top: 8px;
 }
 
@@ -65,8 +66,8 @@ input{
     color: aliceblue;
 }
 
-.employmentGroup{
-    
+.employmentGroup {
+
     margin-top: 10px;
     column-gap: 15px;
     height: 15px;
@@ -100,7 +101,7 @@ input{
     color: aliceblue;
 }
 
-.healthGroup{
+.healthGroup {
     margin-top: 10px;
     column-gap: 15px;
     height: 15px;
@@ -141,5 +142,12 @@ input[type="checkbox"] {
     width: 10%;
 }
 
+/* Responsive for phones */
 
+@media(max-width: 768px) {
+    .payorForm {
 
+        margin: 20px 35px 0px 50px;
+    }
+
+}

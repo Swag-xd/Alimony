@@ -10,3 +10,11 @@
 img icon {
     border-radius: 20px;
 }
+
+/* Responsive for phones */
+
+@media(max-width: 768px) {
+    :root{
+        overflow-x: hidden;
+    }
+}

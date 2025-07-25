@@ -51,10 +51,11 @@ button:hover {
         flex-direction: column;
         height: auto;
         margin: 0 10px;
+
     }
 
     .submitButton {
-        margin: 15px 32vh;
+        margin: 15px 28vh;
         justify-content: center;
     }
 

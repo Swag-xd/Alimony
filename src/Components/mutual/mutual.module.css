@@ -72,17 +72,12 @@ input[type="checkbox"] {
     width: 10%;
 }
 
-/* button{
-    border: none;
-    height: 35px;
-    width: 100px;
-    margin: 70px 120px 0px 127px;
-    border-radius: 20px;
-    font-weight: bolder;
+/* Responsive for phones */
+
+@media(max-width: 768px) {
+    .mutualForm {
+
+        margin: 20px 35px 0px 50px;
+    }
+
 }
-button:hover{
-    background-color: black;
-    color: aliceblue;
-    transition: 0.7s;
-    transform: scale(1.1);
-} */
