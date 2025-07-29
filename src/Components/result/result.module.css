@@ -24,18 +24,14 @@
 @media(max-width: 768px){
 
   .resultSection{
-    margin: 0px auto 20px auto;
+    margin: auto 10vh;
     width: 90%;
     height: 50px;
   }
 
   .alimonyHeading{
-    padding: 10px;
+    padding: 12px 60px 12px 0px;;
     font-size: 16px;
-    text-align: center;
+    
   }
-
-  /* .alimonyHeading{
-    padding: 24px 0;
-  } */
 }
