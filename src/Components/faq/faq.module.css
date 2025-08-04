@@ -36,9 +36,13 @@
 @media(max-width: 768px) {
 
   .faqBox {
-    margin: 50px 8vh;
-    width: 90%;
-    padding: 20px;
+    background-color: #181818;
+    height: 54vh;
+    width: 50vh;
+    margin: 20px 35px 0px 80px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 12px;
   }
 
   .faqHeading {

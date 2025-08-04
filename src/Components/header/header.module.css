@@ -63,15 +63,15 @@ img {
 
     .Name{
         font-size: 20px;
-        margin-right: 108px;
+        margin-right: 197px;
     }
     .Icon {
         justify-content: center;
         /* width: 100%; */
-        margin-left: 50px;
+        margin-left: 22px;
     }
 
     img {
-        margin:5px 20px;
+        margin:5px 55px;
     }
 }
