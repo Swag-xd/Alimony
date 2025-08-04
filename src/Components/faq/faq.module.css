@@ -29,6 +29,16 @@
   border-left: 4px solid #4a90e2;
   border-radius: 4px;
 }
+.footer{
+  width: 100%;
+  background-color: #181818;
+  height: 10vh;
+  margin-top: 10vh;;
+}
+.footerPara{
+color:rgb(219 219 219);
+font-family: 'Courier New', Courier, monospace;
+}
 
 
 /* Responsive for phones */
