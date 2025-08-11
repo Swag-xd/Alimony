@@ -1,0 +1,49 @@
+.footer {
+  width: 100%;
+  background-color: #181818;
+  height: 12vh;
+  margin-top: 10vh;
+  display: flex;
+}
+
+.footerPara {
+  color: rgb(219 219 219);
+  font-family: 'Courier New', Courier, monospace;
+  padding-top: 22px;
+  padding-left: 12vh;
+  margin-right: 23vh;
+}
+
+.S_Icons {
+  
+  margin-left: 20vh;
+}
+
+.S_Icons img {
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+
+/* LinkedIn blue glow */
+.S_Icons a:first-child img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 12px rgba(10, 102, 194, 0.9);
+}
+
+/* GitHub purple glow */
+.S_Icons a:last-child img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 12px rgba(156, 39, 176, 0.9);
+}
+
+
+
+
+
+
+/* Responsive for phones */
+
+

@@ -51,13 +51,7 @@ export default function Faq() {
                 ))}
 
             </div>
-            <footer className={styles.footer}>
-                <nav className={styles.footerPara}>
-                    <p>© 2025 Alimony Calculator · Built with ❤️ by Swaggy · Made in India 🇮🇳</p>
-                    <p>This tool is for informational purposes only. Consult legal professionals for actual cases.</p>
-                </nav>
-
-            </footer>
+            
         </>
     )
 }
